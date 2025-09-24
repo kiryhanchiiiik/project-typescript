@@ -709,7 +709,7 @@ export default NavLinks;
 ## Theme
 
 [Theming](https://ui.shadcn.com/docs/theming)
-[Themes](https://ui.shadcn.com/themes)
+[Themes](https://ui.shadcn .com/themes)
 
 - overwrite base in index.css
 
