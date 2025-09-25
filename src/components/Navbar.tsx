@@ -4,7 +4,7 @@ import Logo from "./Logo";
 import ModeToggle from "./ModeToggle";
 import NavLinks from "./NavLinks";
 
-function NavBar() {
+function Navbar() {
   return (
     <nav className="bg-muted py-4">
       <div className="align-element flex justify-between items-center">
@@ -20,4 +20,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;
