@@ -1,5 +1,5 @@
 function ProductsGrid() {
-  return <div></div>;
+  return <div>ProductsGrid</div>;
 }
 
 export default ProductsGrid;
