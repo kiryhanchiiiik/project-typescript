@@ -1,5 +1,5 @@
 function HeroCarousel() {
-  return <div></div>;
+  return <div>HeroCarousel</div>;
 }
 
 export default HeroCarousel;
