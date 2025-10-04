@@ -2,6 +2,7 @@ import { Form, useLoaderData, Link } from "react-router-dom";
 import { Button } from "./ui/button";
 import type { ProductsResponseWithParams } from "@/utils";
 import FormInput from "./FormInput";
+import FormSelect from "./FormSelect";
 
 function Filters() {
   const { meta, params } = useLoaderData() as ProductsResponseWithParams;
@@ -13,6 +14,24 @@ function Filters() {
         label="search product"
         name="search"
         defaultValue={search}
+      />
+      <FormSelect
+        label="select category"
+        name="category"
+        options={meta.categories}
+        defaultValue={category}
+      />
+      <FormSelect
+        label="select company"
+        name="company"
+        options={meta.companies}
+        defaultValue={company}
+      />
+      <FormSelect
+        label="order by"
+        name="order"
+        options={["a-z", "z-a", "high", "low"]}
+        defaultValue={order}
       />
       <Button type="submit" size="sm" className="self-end mb-2">
         search
